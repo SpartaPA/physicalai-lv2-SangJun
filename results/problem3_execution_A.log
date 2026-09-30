@@ -1,0 +1,10 @@
+# Execution A — Kp=4, target=90, speed=60
+2.000 target=90.000 position=0.000 error=90.000 p=360.000 u=59.082
+2.500 target=90.000 position=10.371 error=79.629 p=318.516 u=59.082
+3.000 target=90.000 position=39.287 error=50.713 p=202.852 u=59.082
+3.500 target=90.000 position=69.082 error=20.918 p=83.672 u=59.082
+3.900 target=90.000 position=89.824 error=0.176 p=0.000 u=0.000
+4.000 target=90.000 position=92.725 error=-2.725 p=-10.898 u=-10.992
+4.500 target=90.000 position=92.197 error=-2.197 p=-8.789 u=-8.244
+5.000 target=90.000 position=90.176 error=-0.176 p=0.000 u=0.000
+STOP: user

@@ -1,0 +1,12 @@
+opencr_ld ver 1.0.4
+opencr_ld_main
+file name : ./output/opencr_position_p.ino.bin
+file size : 102 KB
+Open port OK
+Board Name : OpenCR R1.0
+flash_erase : 0 : 0.879000 sec
+flash_write : 0 : 1.172000 sec
+CRC OK 9B55F6 9B55F6 0.004000 sec
+[OK] Download
+jump_to_fw
+jump finished
