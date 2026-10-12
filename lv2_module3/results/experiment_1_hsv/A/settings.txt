@@ -1,0 +1,15 @@
+실험 1 — HSV 하한 변경
+Mask 생성 단계
+S 하한을 변경해 어떤 픽셀이 Mask에 남는지 비교합니다.
+- A: [93, 120, 35]
+- B: [93, 160, 35]
+- 고정: hsv_upper, min_area_ratio
+예상: B에서는 채도가 120 이상 160 미만인 픽셀이 제외됩니다. 목표 물체의 해당 영역도 제거될 수 있으므로 실제 Mask와 검출 결과를 확인해야 합니다.
+
+Experiment: 1 - HSV threshold
+Condition: A (baseline)
+hsv_lower: [93, 120, 35]
+hsv_upper: [130, 255, 255]
+min_area_ratio: 0.002
+publish_debug_image: true
+Input: Live RealSense camera

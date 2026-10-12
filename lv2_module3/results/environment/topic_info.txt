@@ -1,1 +1,28 @@
 # 실제 토픽 이름, 타입, 발행 노드
+
+# Module 3 - ROS 2 Topic Inspection
+
+## Raw Image
+Topic: /camera/camera/color/image_raw
+Type: sensor_msgs/msg/Image
+Publisher: /camera/camera
+Subscriber: perception_node, rviz, and others
+Status: Image received and displayed in rqt_image_view
+
+## Mask
+Topic: /perception/mask
+Type: sensor_msgs/msg/Image
+Publisher: perception_node
+Status: Image received and displayed in rqt_image_view
+
+## Detection Overlay
+Topic: /perception/debug_image
+Type: sensor_msgs/msg/Image
+Publisher: perception_node
+Status: Image received and displayed in rqt_image_view
+
+## Detection Coordinates
+Topic: /target
+Type: geometry_msgs/msg/PointStamped
+Publisher: perception_node (2 publisher endpoints observed)
+Status: Message received using ros2 topic echo --once
