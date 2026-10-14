@@ -6,7 +6,7 @@
 
 ## 사용한 팀 저장소
 
-팀 프로젝트 저장소: [SpartaPA/Lv2_EYE4_Assignment](https://github.com/SpartaPA/Lv2_EYE4_Assignment)
+팀 프로젝트 저장소: https://github.com/SpartaPA/Lv2_EYE4_Assignment
 
 실제 사용한 커밋, 코드 경로 및 실행 파일은 별도 기록에서 확인되지 않습니다.
 
