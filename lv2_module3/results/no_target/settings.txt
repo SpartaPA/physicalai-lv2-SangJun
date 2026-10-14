@@ -1,0 +1,5 @@
+Experiment: No-target observation
+Command recorded in observed_result.txt: ros2 topic echo /target --once
+Input condition: 무검출 조건으로 기록됨. 카메라, 장면, 조명, 노드 및 설정 적용 상태는 확인 불가.
+실험에 사용한 별도 설정 파일: 확인되지 않음
+실행 시각: 확인되지 않음

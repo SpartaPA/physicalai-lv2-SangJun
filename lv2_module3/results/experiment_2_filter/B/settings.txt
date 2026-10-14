@@ -1,0 +1,9 @@
+Experiment: 2 - minimum detection area ratio
+Condition: B (planned; not measured)
+min_area_ratio: 0.005
+
+상태: 미실측. 위 값은 계획된 설정이며 실제 설정 파일 적용 또는 실행을 뜻하지 않습니다.
+HSV 설정 및 기타 입력 조건: A와 동일하게 유지할 실험 설계이나 실제 통제 여부는 미확인.
+결과 이미지: 없음
+측정값: 없음
+가설 판정: 보류

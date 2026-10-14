@@ -1,0 +1,8 @@
+Experiment: 1 - HSV threshold
+Condition: B
+hsv_lower: [93, 160, 35]
+hsv_upper: [130, 255, 255]
+min_area_ratio: 0.002
+
+기록된 설정값은 A와 비교할 때 S 하한만 변경하며 나머지 HSV 경계값과 최소 면적 비율을 통제 조건으로 둡니다. 설정이 실제 실행에 적용됐는지와 실행 환경, 입력 장면 및 측정 시각은 미확인입니다.
+원본 입력 이미지 파일은 이 디렉터리에 없습니다. 존재하는 증거: mask.png, detection.png.

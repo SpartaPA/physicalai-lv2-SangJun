@@ -1,4 +1,5 @@
 # 실제 토픽 이름, 타입, 발행 노드
+# 아래 기존 관측 내용은 보존했으며, 하단에 다른 스냅샷과의 차이를 덧붙였습니다.
 
 # Module 3 - ROS 2 Topic Inspection
 
@@ -26,3 +27,9 @@ Topic: /target
 Type: geometry_msgs/msg/PointStamped
 Publisher: perception_node (2 publisher endpoints observed)
 Status: Message received using ros2 topic echo --once
+
+## 측정 기록 간 차이
+
+이 파일의 기존 `/target` 기록은 publisher endpoint 2개를 관측했다고 적고 구독자는 구체적으로 기록하지 않습니다. `live_environment.txt` 스냅샷(2026-10-14 15:39:50 +09:00)에는 publisher endpoint 1개(`/perception_node`)와 subscription count 0이 기록되어 있습니다. 두 자료의 측정 시점이 같은지 확인되지 않아 차이의 원인을 판정하지 않으며 어느 기록이 더 정확한지도 단정하지 않습니다.
+
+두 기록 모두 `/target` 타입을 `geometry_msgs/msg/PointStamped`로 적고 있습니다.

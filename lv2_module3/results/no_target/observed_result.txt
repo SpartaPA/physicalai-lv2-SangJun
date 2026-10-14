@@ -4,5 +4,5 @@ Observed frame_id: camera_color_optical_frame
 Observed point.x: 0.0
 Observed point.y: 0.0
 Observed point.z: 0.0
-Result: A zero-valued target message was received when no target was detected.
-Note: This validates the no-detection output only, not node or camera failure handling.
+Result: 기존 관측 기록에는 무검출 조건에서 0값을 가진 /target 메시지를 수신했다고 적혀 있다.
+Note: 이 기록이 뒷받침하는 범위는 해당 메시지에서 위 frame_id와 0값을 수신했다는 사실뿐이다. 카메라 고장, 노드 장애 또는 모든 무검출 상황에서의 동작은 검증하지 않았다. 실행 시각과 상세 입력 조건은 미확인이다.

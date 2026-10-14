@@ -12,4 +12,15 @@ hsv_lower: [93, 120, 35]
 hsv_upper: [130, 255, 255]
 min_area_ratio: 0.002
 publish_debug_image: true
-Input: Live RealSense camera
+Input: Live RealSense camera (기존 기록)
+
+기존 설정값을 보존했습니다. 실제 실행 시각, 입력 장면이 B와 동일했는지, 위 설정이 캡처 시점에 적용됐는지는 확인되지 않습니다.
+
+Evidence files:
+- 스크린샷 2026-10-12 17-15-31.png — rqt_image_view에서 /camera/camera/color/image_raw를 선택한 화면
+- 스크린샷 2026-10-12 17-15-46.png — rqt_image_view에서 /perception/debug_image를 선택한 화면
+- 스크린샷 2026-10-12 17-16-20.png — rqt_image_view에서 /perception/mask를 선택한 화면
+
+화면의 토픽 표시는 식별되지만 파일명 시각이 측정 시각 또는 설정 적용 시각과 같다고 단정하지 않습니다.
+
+예상 문구가 기록되어 있으나 작성 시각을 확인할 수 없으므로 실험 전 사전 가설로 단정하지 않습니다. 설정값으로부터의 예상으로 취급합니다.
