@@ -1,0 +1,8 @@
+Experiment: No-target validation
+Command: ros2 topic echo /target --once
+Observed frame_id: camera_color_optical_frame
+Observed point.x: 0.0
+Observed point.y: 0.0
+Observed point.z: 0.0
+Result: A zero-valued target message was received when no target was detected.
+Note: This validates the no-detection output only, not node or camera failure handling.
